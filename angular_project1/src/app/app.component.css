@@ -1,0 +1,39 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    width: 100vw;
+    height: 50vh;
+    background-color: aqua;
+}
+
+.container{
+    display: flex;
+    width: 100vw;
+    border: 1px solid black;
+    position: relative;
+    justify-content: space-between;
+}
+
+.container .menu{
+    display: flex;
+    position: absolute;
+    background-color: aquamarine;
+}
+
+.nav-list{
+    display: flex;
+    list-style: none;
+    border: 2px solid;
+    
+}
+
+.logo{
+    border: 2px solid;
+    width: 100px;
+    list-style: none;
+    text-align: center;
+}
